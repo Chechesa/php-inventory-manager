@@ -1,0 +1,20 @@
+/* Is not required a lot of css */
+/* We change background color only */
+body {
+    background-color: #fafafa;
+}
+
+/* and Capitalize user names, because are stored as lowercase in database */
+#inventory-table td {
+    text-transform: capitalize;
+}
+
+/* Removing underline in links to Action column icons (and any link in the table)*/
+#inventory-table td a {
+    text-decoration: none;
+}
+
+/* Puts action options centered */
+#inventory-table td.sorting_1 div {
+    text-align: center;
+}
